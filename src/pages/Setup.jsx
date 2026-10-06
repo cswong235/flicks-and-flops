@@ -31,7 +31,7 @@ function Setup() {
             Paste it into <code>.env</code>, then restart the dev server
           </li>
         </ol>
-        <pre className="setup__code">VITE_TMDB_API_KEY=your_key_here</pre>
+        <pre className="setup__code">TMDB_API_KEY=your_key_here</pre>
       </div>
     </div>
   );

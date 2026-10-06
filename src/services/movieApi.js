@@ -1,7 +1,7 @@
 const BASE_URL = "https://api.themoviedb.org/3";
 const IMAGE_BASE = "https://image.tmdb.org/t/p";
 
-const API_KEY = String(import.meta.env.VITE_TMDB_API_KEY || "").trim();
+const API_KEY = String(import.meta.env.TMDB_API_KEY || "").trim();
 const USE_BEARER = API_KEY.startsWith("eyJ");
 
 export const hasApiKey = API_KEY.length > 0;
